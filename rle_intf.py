@@ -9,6 +9,8 @@ number of output symbols.  The RLE, base on reference 1, has and
 interface that streams the data in and streams symbols out.
 """
 
+from myhdl import Signal, intbv
+
 
 class DataStream(object):
     def __init__(self, width=8):
@@ -20,7 +22,16 @@ class DataStream(object):
         self.ready = Signal(bool(0))
         self.valid_in = Signal(bool(0))
         self.data = Signal(intbv(0)[width:0])
-        
+
+
+class RunLengthSymbols(object):
+    def __init__(self):
+        self.runlength = Signal(intbv(0)[4:0])
+        self.size = Signal(intbv(0)[4:0])
+        self.valid = Signal(bool(0))
+        # need to determine if the "addr" should be in the 
+        # producer or consumer ...
+
 
 class RunLengthEncoderConfig(object):
     def __init__(self):
