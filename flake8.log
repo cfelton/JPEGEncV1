@@ -1,0 +1,56 @@
+RLEnew.py:1:1: F401 'delay' imported but unused
+RLEnew.py:2:1: F401 'instance' imported but unused
+RLEnew.py:4:1: F403 'from myhdl.conversion import *' used; unable to detect undefined names
+RLEnew.py:17:1: E303 too many blank lines (3)
+RLEnew.py:18:55: W291 trailing whitespace
+RLEnew.py:22:80: E501 line too long (89 > 79 characters)
+RLEnew.py:25:80: E501 line too long (95 > 79 characters)
+RLEnew.py:35:1: W293 blank line contains whitespace
+RLEnew.py:37:5: E303 too many blank lines (2)
+RLEnew.py:38:18: W291 trailing whitespace
+RLEnew.py:42:1: W293 blank line contains whitespace
+RLEnew.py:43:1: W293 blank line contains whitespace
+RLEnew.py:45:5: E303 too many blank lines (3)
+RLEnew.py:45:37: E251 unexpected spaces around keyword / parameter equals
+RLEnew.py:45:39: E251 unexpected spaces around keyword / parameter equals
+RLEnew.py:53:1: W293 blank line contains whitespace
+RLEnew.py:60:32: W291 trailing whitespace
+RLEnew.py:62:25: W291 trailing whitespace
+RLEnew.py:73:1: W293 blank line contains whitespace
+RLEnew.py:76:49: W291 trailing whitespace
+RLEnew.py:77:1: W293 blank line contains whitespace
+RLEnew.py:79:39: E222 multiple spaces after operator
+RLEnew.py:80:49: W291 trailing whitespace
+RLEnew.py:81:1: W293 blank line contains whitespace
+RLEnew.py:83:39: E222 multiple spaces after operator
+RLEnew.py:84:49: W291 trailing whitespace
+RLEnew.py:85:1: W293 blank line contains whitespace
+RLEnew.py:88:1: W293 blank line contains whitespace
+RLEnew.py:90:17: E303 too many blank lines (2)
+RLEnew.py:92:1: W293 blank line contains whitespace
+RLEnew.py:94:13: E303 too many blank lines (2)
+RLEnew.py:94:17: E203 whitespace before ':'
+RLEnew.py:95:1: W293 blank line contains whitespace
+RLEnew.py:104:1: W293 blank line contains whitespace
+RLEnew.py:117:45: W291 trailing whitespace
+RLEnew.py:118:49: W291 trailing whitespace
+RLEnew.py:121:1: W293 blank line contains whitespace
+RLEnew.py:128:9: E303 too many blank lines (2)
+RLEnew.py:130:1: W293 blank line contains whitespace
+RLEnew.py:144:37: W291 trailing whitespace
+RLEnew.py:145:41: W291 trailing whitespace
+RLEnew.py:156:31: W291 trailing whitespace
+RLEnew.py:160:80: E501 line too long (85 > 79 characters)
+RLEnew.py:164:5: E303 too many blank lines (3)
+RLEnew.py:170:1: E303 too many blank lines (5)
+RLEnew.py:175:1: W293 blank line contains whitespace
+RLEnew.py:176:5: E303 too many blank lines (2)
+RLEnew.py:181:5: E303 too many blank lines (2)
+RLEnew.py:184:1: W293 blank line contains whitespace
+RLEnew.py:189:5: F841 local variable 'wr_addr' is assigned to but never used
+RLEnew.py:191:5: F841 local variable 'inst' is assigned to but never used
+RLEnew.py:191:62: W291 trailing whitespace
+RLEnew.py:192:9: E128 continuation line under-indented for visual indent
+RLEnew.py:193:1: W293 blank line contains whitespace
+RLEnew.py:195:62: W291 trailing whitespace
+RLEnew.py:196:9: E128 continuation line under-indented for visual indent

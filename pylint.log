@@ -1,0 +1,212 @@
+************* Module RLEnew
+C: 13, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C: 18, 0: Trailing whitespace (trailing-whitespace)
+C: 22, 0: Wrong hanging indentation (remove 20 spaces).
+                            Signal(intbv(0)[WIDTH_RAM_DATA:].signed()) for _ in range(4)]
+        |                   ^ (bad-continuation)
+C: 25, 0: Wrong hanging indentation (remove 20 spaces).
+                            Signal(intbv(0)[(WIDTH_RAM_DATA + 1):].signed()) for _ in range(2)]
+        |                   ^ (bad-continuation)
+C: 28, 0: Wrong hanging indentation (remove 20 spaces).
+                            Signal(intbv(0)[SIZE:]) for _ in range(2)]
+        |                   ^ (bad-continuation)
+C: 31, 0: Wrong hanging indentation (remove 20 spaces).
+                            Signal(bool(0)) for _ in range(5)]
+        |                   ^ (bad-continuation)
+C: 35, 0: Trailing whitespace (trailing-whitespace)
+C: 38, 0: Trailing whitespace (trailing-whitespace)
+C: 42, 0: Trailing whitespace (trailing-whitespace)
+C: 43, 0: Trailing whitespace (trailing-whitespace)
+C: 45, 0: No space allowed around keyword argument assignment
+    @always_seq(clock.posedge, reset = reset)
+                                     ^ (bad-whitespace)
+C: 53, 0: Trailing whitespace (trailing-whitespace)
+C: 60, 0: Trailing whitespace (trailing-whitespace)
+C: 62, 0: Trailing whitespace (trailing-whitespace)
+C: 73, 0: Trailing whitespace (trailing-whitespace)
+C: 76, 0: Trailing whitespace (trailing-whitespace)
+C: 77, 0: Trailing whitespace (trailing-whitespace)
+C: 79, 0: Exactly one space required after assignment
+                    accumulator.next =  sub(di.signed(), prev_dc_1)
+                                     ^ (bad-whitespace)
+C: 80, 0: Trailing whitespace (trailing-whitespace)
+C: 81, 0: Trailing whitespace (trailing-whitespace)
+C: 83, 0: Exactly one space required after assignment
+                    accumulator.next =  sub(di.signed(), prev_dc_2)
+                                     ^ (bad-whitespace)
+C: 84, 0: Trailing whitespace (trailing-whitespace)
+C: 85, 0: Trailing whitespace (trailing-whitespace)
+C: 88, 0: Trailing whitespace (trailing-whitespace)
+C: 92, 0: Trailing whitespace (trailing-whitespace)
+C: 94, 0: No space allowed before :
+            else :
+                 ^ (bad-whitespace)
+C: 95, 0: Trailing whitespace (trailing-whitespace)
+C:104, 0: Trailing whitespace (trailing-whitespace)
+C:117, 0: Trailing whitespace (trailing-whitespace)
+C:118, 0: Trailing whitespace (trailing-whitespace)
+C:121, 0: Trailing whitespace (trailing-whitespace)
+C:130, 0: Trailing whitespace (trailing-whitespace)
+C:144, 0: Trailing whitespace (trailing-whitespace)
+C:145, 0: Trailing whitespace (trailing-whitespace)
+C:156, 0: Trailing whitespace (trailing-whitespace)
+C:175, 0: Trailing whitespace (trailing-whitespace)
+C:184, 0: Trailing whitespace (trailing-whitespace)
+C:191, 0: Trailing whitespace (trailing-whitespace)
+C:192, 0: Wrong continued indentation (add 7 spaces).
+        runlength, size, amplitude, dovalid, read_addr)
+        ^      | (bad-continuation)
+C:193, 0: Trailing whitespace (trailing-whitespace)
+C:195, 0: Trailing whitespace (trailing-whitespace)
+C:196, 0: Wrong continued indentation (add 7 spaces).
+        runlength, size, amplitude, dovalid, read_addr).analyze_convert() == 0
+        ^      | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: Unable to import 'EntropyCoder' (import-error)
+W:  4, 0: Wildcard import myhdl.conversion (wildcard-import)
+C: 12, 0: Invalid argument name "a" (invalid-name)
+C: 12, 0: Invalid argument name "b" (invalid-name)
+C: 12, 0: Missing function docstring (missing-docstring)
+C: 18, 0: Invalid argument name "di" (invalid-name)
+C: 18, 0: Missing function docstring (missing-docstring)
+R: 18, 0: Too many arguments (11/5) (too-many-arguments)
+R: 18, 0: Too many local variables (30/15) (too-many-locals)
+C: 38, 4: Missing function docstring (missing-docstring)
+C: 46, 4: Missing function docstring (missing-docstring)
+R: 46, 4: Too many branches (25/12) (too-many-branches)
+R: 46, 4: Too many statements (83/50) (too-many-statements)
+R: 18, 0: Too many statements (84/50) (too-many-statements)
+C:170, 0: Missing function docstring (missing-docstring)
+C:176, 4: Invalid variable name "di" (invalid-name)
+E:195,11: Instance of 'tuple' has no 'analyze_convert' member (no-member)
+W:191, 4: Unused variable 'inst' (unused-variable)
+W:189, 4: Unused variable 'wr_addr' (unused-variable)
+W:  1, 0: Unused delay imported from myhdl (unused-import)
+W:  2, 0: Unused instance imported from myhdl (unused-import)
+W:  4, 0: Unused import toVHDL from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import toVerilog from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import registerSimulator from wildcard import (unused-wildcard-import)
+W:  4, 0: Unused import verify from wildcard import (unused-wildcard-import)
+
+
+Report
+======
+116 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |5          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    myhdl (RLEnew)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |136    |67.66 |136      |=          |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |0        |=          |
++----------+-------+------+---------+-----------+
+|empty     |65     |32.34 |65       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |52     |52       |=          |
++-----------+-------+---------+-----------+
+|refactor   |5      |5        |=          |
++-----------+-------+---------+-----------+
+|warning    |9      |9        |=          |
++-----------+-------+---------+-----------+
+|error      |2      |2        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|trailing-whitespace    |31          |
++-----------------------+------------+
+|missing-docstring      |6           |
++-----------------------+------------+
+|bad-continuation       |6           |
++-----------------------+------------+
+|unused-wildcard-import |4           |
++-----------------------+------------+
+|invalid-name           |4           |
++-----------------------+------------+
+|bad-whitespace         |4           |
++-----------------------+------------+
+|unused-variable        |2           |
++-----------------------+------------+
+|unused-import          |2           |
++-----------------------+------------+
+|too-many-statements    |2           |
++-----------------------+------------+
+|wildcard-import        |1           |
++-----------------------+------------+
+|too-many-locals        |1           |
++-----------------------+------------+
+|too-many-branches      |1           |
++-----------------------+------------+
+|too-many-arguments     |1           |
++-----------------------+------------+
+|superfluous-parens     |1           |
++-----------------------+------------+
+|no-member              |1           |
++-----------------------+------------+
+|import-error           |1           |
++-----------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 3.45/10 (previous run: 3.45/10, +0.00)
+
